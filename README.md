@@ -45,7 +45,7 @@ Hier eine Liste der Hauptkomponenten mit Bezugsquellen
 - 6 Stück Kurzhubtaster [9308](https://www.reichelt.com/fr/en/Switches-Tactile/TASTER-9308/3/index.html?ACTION=3&GROUPID=7587&ARTICLE=44532&START=0&OFFSET=16&)
 - Gehäuse und Tasterköpfe [ThermoCam](https://www.thingiverse.com/thing:2813276) (müssen selbst gedruckt oder in Auftrag gegeben werden)
 
-Neben einem Stück Lochrasterplatte für die Taster, Kabeln, Widerständen und Kontaktblechstreifen sind noch einige Flachkopf-Schrauben M3x5 und M2,5x5 erforderlich. Ich habe die Löcher von Display und Sensor auf 3mm aufgebohrt und generell M3-Schrauben verwendet. 
+Neben einem Stück Lochrasterplatte für die Taster, Kabeln, Widerständen und Kontaktblechstreifen sind noch einige Flachkopf-Schrauben M3x5 und M2x5 erforderlich. Ich habe die Löcher des Displays auf 3mm aufgebohrt und auch dort M3-Schrauben verwendet. 
 
 Da Schiebeschalter unpraktisch sind und um bei Nichtbenutzung das Gerät perSoftware abschalten zu können, erfolgt das Schalten der Stromversorgung elektronisch. Die im Schaltplan angegebenen Mosfet-Transistoren sind nur als Beispiel zu sehen. Alle Transistoren mit einem Maximalstrom von 500mA und einer Tresholdspannung kleiner 2V sind verwendbar. 
 
