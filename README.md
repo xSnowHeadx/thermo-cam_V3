@@ -11,7 +11,7 @@ gearbeitet.**
 
 ----------
 
-Basierend auf dem Beispiel von [Melexis](https://github.com/melexis/mlx90640-library) wurde die Software für die ThermoCam entwickelt. Die Interpolationsfunktion "interpolation.cpp" von [adafruit](https://github.com/adafruit/Adafruit_AMG88xx), welche die real 32x24 Bildpixel des Thermosensors auf 64x48 Pixel interpoliert wurde für die Verarbeitung von Integer-Daten abgewandelt. Aufgrund des geringen zue Verfügung stehenden Speichers konnte für das interpolierte Bild nicht mehr mit Float-Werten gearbeitet werden.
+Basierend auf dem Beispiel von [Melexis](https://github.com/melexis/mlx90640-library) wurde die Software für die ThermoCam entwickelt. Die Interpolationsfunktion "interpolation.cpp" von [adafruit](https://github.com/adafruit/Adafruit_AMG88xx), welche die real 32x24 Bildpixel des Thermosensors auf 64x48 Pixel interpoliert wurde für die Verarbeitung von Integer-Daten abgewandelt. Aufgrund des geringen zur Verfügung stehenden Speichers konnte für das interpolierte Bild nicht mehr mit Float-Werten gearbeitet werden.
 
 ## Software 
 
@@ -32,6 +32,8 @@ Folgende externe Bibliotheken müssen beschafft und entsprechend den Anleitungen
 - [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI) (schnellere LCD-Ansteuerung als von adafruit)
 - [UrsAdc](http://bienonline.magix.net/public/esp8266-adc.html) (A/D-Wandlung für Spannungsmessung)
 
+Um mit dem vorhandenen RAM auszukommen, ist in den Projekteinstellungen die Platzierung der VTables unbedingt auf "Flash" zu setzen.
+
 ## Hardware 
 
 Hier eine Liste der Hauptkomponenten mit Bezugsquellen
@@ -43,7 +45,7 @@ Hier eine Liste der Hauptkomponenten mit Bezugsquellen
 - Akku-Lade- und Schutzschaltung [BMS](https://www.aliexpress.com/item/32807056032.html)
 - Step-Up / Step-Down Spannungsregler [3V3](https://www.aliexpress.com/item/mini-2-in-1-DC-DC-Step-Down-Step-Up-Converter-1-8V-5V-to-3/32764847210.html) 
 - 6 Stück Kurzhubtaster [9308](https://www.reichelt.com/fr/en/Switches-Tactile/TASTER-9308/3/index.html?ACTION=3&GROUPID=7587&ARTICLE=44532&START=0&OFFSET=16&)
-- Gehäuse und Tasterköpfe [ThermoCam](https://www.thingiverse.com/thing:2813276) (müssen selbst gedruckt oder in Auftrag gegeben werden)
+- Gehäuse und Tasterköpfe [ThermoCam_V3](https://www.thingiverse.com/thing:5254870) (müssen selbst gedruckt oder in Auftrag gegeben werden)
 
 Neben einem Stück Lochrasterplatte für die Taster, Kabeln, Widerständen und Kontaktblechstreifen sind noch einige Flachkopf-Schrauben M3x5 und M2x5 erforderlich. Ich habe die Löcher des Displays auf 3mm aufgebohrt und auch dort M3-Schrauben verwendet. 
 
