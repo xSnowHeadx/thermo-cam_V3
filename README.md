@@ -38,9 +38,9 @@ Hier eine Liste der Hauptkomponenten mit Bezugsquellen
 
 - Thermosensor-Breakout [PIM365](https://shop.pimoroni.com/products/mlx90640-thermal-camera-breakout?variant=12536948654163)
 - TFT-Display-Breakout [ST7735R](https://www.adafruit.com/product/2088) 
-- NodeMCU [ESP8266-12E](https://www.aliexpress.com/item/1pcs-NodeMCU-V3-Lua-WIFI-module-integration-of-ESP8266-extra-memory-32M-Flash-USB-serial-CH340G/32813713134.html)
-- 3,7V-Akku [18650](https://www.aliexpress.com/item/2PCS-3-7V-4200mAh-18650-MICKTICK-Battery-lithium-Li-Ion-Rechargeable-Large-Capacity-Batteries-batteria-T6/32803586525.html)
-- Akku-Lade- und Schutzschaltung [BMS](https://www.aliexpress.com/item/1S-3-7V-3A-li-ion-BMS-PCM-battery-protection-board-pcm-for-18650-lithium-ion/32673915806.html)
+- NodeMCU [ESP8266-12E](https://www.aliexpress.com/item/33010335367.html)
+- 3,7V-Akku [18650](https://www.aliexpress.com/item/1005003718911233.html)
+- Akku-Lade- und Schutzschaltung [BMS](https://www.aliexpress.com/item/32807056032.html)
 - Step-Up / Step-Down Spannungsregler [3V3](https://www.aliexpress.com/item/mini-2-in-1-DC-DC-Step-Down-Step-Up-Converter-1-8V-5V-to-3/32764847210.html) 
 - 6 Stück Kurzhubtaster [9308](https://www.reichelt.com/fr/en/Switches-Tactile/TASTER-9308/3/index.html?ACTION=3&GROUPID=7587&ARTICLE=44532&START=0&OFFSET=16&)
 - Gehäuse und Tasterköpfe [ThermoCam](https://www.thingiverse.com/thing:2813276) (müssen selbst gedruckt oder in Auftrag gegeben werden)
